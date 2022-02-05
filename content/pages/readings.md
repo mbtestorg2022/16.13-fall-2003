@@ -23,51 +23,550 @@ Readings Legend
 
 \[K&C\] Kuethe, A. and C-Y. Chow. _Foundations of Aerodynamics, 4th Ed_. John Wiley & Sons, 1986. ASIN:0471509531.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Underlying Physical Principles**{{< /td-colspan >}} |||
-| 1 | Course Description. Fundamental Theorem of Kinematics - Convection, Vorticity, Strain. | \[B\] 78-87  {{< br >}}\[W\] 16-22 |
-| 2 | Eulerian vs. Langrangian Description. Convection Relations. |  |
-| {{< td-colspan 3 >}}**Conservation Laws**{{< /td-colspan >}} |||
-| 3 | Conservation of Mass. Conservation of Momentum. Stress Tensor. | \[B\] 73-75, 137-151  {{< br >}}\[S\] 47-61  {{< br >}}\[W\] 61-65 |
-| 4 | Viscosity. Newtonian Fluids. Vorticity and Circulation. | \[W\] 23-29, 59-69, 89-91  {{< br >}}\[K&C\] 40-50  {{< br >}}\[B\] 71-99 |
-| 5 | Navier-Stokes Equations. Physical Parameters. Dynamic Similarity. |  {{< br >}}{{< br >}} \[B\] 164-173  {{< br >}}\[W\] 81-94  {{< br >}}\[S\] 15-23  {{< br >}}\[K&C\] 461-462 {{< br >}}{{< br >}}  |
-| {{< td-colspan 3 >}}**Thin Shear Layer Approximation**{{< /td-colspan >}} |||
-| 6 | Dimensional Analysis. Dominant Balance and Vscous Flow Classification. | \[W\] 81-88, 94, 104-107, 114-119, 132-141  {{< br >}}\[S\] 13-18 |
-| 7 | _Re_→∞ Behavior. Thin Shear Layer Equations. TSL Coordinates. | \[S\] 96-99, 145-148  {{< br >}}\[W\] 218-219, 227-233 |
-| 8 | TSL Coordinates. Boundary Conditions. Shear Layer Categories. |  |
-| 9 | Local Scaling. Falkner-Skan Flows. | \[B\] 308-314  {{< br >}}\[S\] 201-206  {{< br >}}\[W\] 233-246 |
-| {{< td-colspan 3 >}}**Solution Techniques**{{< /td-colspan >}} |||
-| 10 | ODE'S, PDE's, and Boundary Conditions. Well-Posedness. | \[W\] 77-78  {{< br >}}Tannehill, Anderson and Pletcher. _Computational Fluid Mechanics And Heat Transfer,_ 2nd Ed. Taylor and Francis, 1997. Pp. 19-31. |
-| 11 | Numerical Methods for ODE's. Discretization. Stability. | Hirsch, C. _Numerical Computation of Internal and External Flows_. Vol. 1. John Wiley & Sons, 1989. Pp. 267-290.  {{< br >}}Tannehill, Anderson and Pletcher. Pp. 76-83. |
-| 12 | Finite Difference Methods. Newton-Raphson. |  |
-| 13 | Integral Methods. Integral Momentum Equation. Thwaites' Method. | \[W\] 264-274  {{< br >}}\[S\] 191-202 (682-698 Optional)  {{< br >}}\[C&B\] 104-116 |
-| 14 | Integral Kinetic Energy Equation. Dissipation Methods. |  |
-| 15 | Integral Kinetic Energy Equation. Dissipation Methods. (cont.) |  |
-| {{< td-colspan 3 >}}**Interacting Boundary Layer Theory**{{< /td-colspan >}} |||
-| 16 | Asymptotic Perturbation Theory. Higher-Order Effects. |  |
-| 17 | 2D Interaction Models: Displacement Body, Transpiration. Form Drag, Stall Mechanisms. |  |
-| 18 | IBLT Solution Techniques. Iteration Stability. |  |
-| 19 | Fully-Coupled Iteration. 3-D IBLT. | \[S\] 449-483  {{< br >}}\[W\] 335-355 |
-| {{< td-colspan 3 >}}**Stability and Transition**{{< /td-colspan >}} |||
-| 20 | Small-Perturbation Theory. Orr-Sommerfeld Equation. | \[S\] 449-483  {{< br >}}\[W\] 335-355 |
-| 21 | Small-Perturbation Theory. Orr-Sommerfeld Equation. (cont.) |  |
-| 22 | Boundary Conditions, Homogeneity, Solution Techniques. | \[S\] 434-473  {{< br >}}\[C&B\] 290-301 |
-| 23 | Transition Mechanisms. Transition Prediction: Local Correlations, Amplification Methods. | \[S\]  {{< br >}}\[W\] |
-| {{< td-colspan 3 >}}**Turbulent Shear Layers**{{< /td-colspan >}} |||
-| 24 | Reynolds Averaging. Prandtl's Analogy. | \[S\] 496-538  {{< br >}}\[W\] 394-463  {{< br >}}\[C&B\] |
-| 25 | Turbulent BL Structure: Wake, Wall Layers. Inner, Outer Variables. Effects of Roughness. | \[S\] 495-552  {{< br >}}\[C&B\] 160-210  {{< br >}}\[W\] 394-449 |
-| 26 | Turbulent BL Structure: Wake, Wall Layers. Inner, Outer Variables. Effects of Roughness. (cont.) |  |
-| 27 | Equilibrium BL's: Clauser Hypothesis. Dissipation Formulas and Integral Closure. |  |
-| 28 | Equilibrium BL's: Clauser Hypothesis. Dissipation Formulas and Integral Closure. (cont.) |  |
-| 29 | Turbulence Modeling and Closure. Algebraic Models. Transport Models. |  |
-| {{< td-colspan 3 >}}**Compressible Thin Shear Layers**{{< /td-colspan >}} |||
-| 30 | Definition and Implications of Compressibility. Special Solutions. Reynolds Analogy. | \[S\] 327-330, 340-352  {{< br >}}\[W\] 184-200, 576-616 |
-| 31a | Definition and Implications of Compressibility. Special Solutions. Reynolds Analogy. (cont.) |  |
-| 31b | Approximate Temperature Profile. Reynolds Heat Flux. |  |
-| {{< td-colspan 3 >}}**3D Boundary Layer**{{< /td-colspan >}} |||
-| 32 | New Effects: Crossflow, Lateral Dilation, 3D Separation. Governing Equations. |  |
-| 33 | Coordinate Systems. Characteristics, BC's, and Well-Posedness. |  |
-| 34 | 3D Characteristics, BC's. Quasi-3D: Constant-Crossflow Approximation. |  |
-| 35 | 3D Characteristics, BC's. Quasi-3D: Constant-Crossflow Approximation. (cont.) |  |
-| 36 | 3D Stability Theory. 3D Transition Mechanisms. | \[W\] 342-344  {{< br >}}Reed, H.L. and W.S. Saric, "Stability of Three-Dimensional Boundary Layers". Annual Review of Fluid Mechanics 21 (1989): 235 - 284.  {{< br >}}Mack, L.M. "Boundary-layer stability theory", Special Course on Stability and Transition of Laminar Flow, AGARD R-709 (1984): 3-1 - 3-81.
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Underlying Physical Principles**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Course Description. Fundamental Theorem of Kinematics - Convection, Vorticity, Strain.
+{{< tdclose >}}
+{{< tdopen >}}
+\[B\] 78-87  
+\[W\] 16-22
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Eulerian vs. Langrangian Description. Convection Relations.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Conservation Laws**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Conservation of Mass. Conservation of Momentum. Stress Tensor.
+{{< tdclose >}}
+{{< tdopen >}}
+\[B\] 73-75, 137-151  
+\[S\] 47-61  
+\[W\] 61-65
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Viscosity. Newtonian Fluids. Vorticity and Circulation.
+{{< tdclose >}}
+{{< tdopen >}}
+\[W\] 23-29, 59-69, 89-91  
+\[K&C\] 40-50  
+\[B\] 71-99
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Navier-Stokes Equations. Physical Parameters. Dynamic Similarity.
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+\[B\] 164-173  
+\[W\] 81-94  
+\[S\] 15-23  
+\[K&C\] 461-462
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Thin Shear Layer Approximation**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Dimensional Analysis. Dominant Balance and Vscous Flow Classification.
+{{< tdclose >}}
+{{< tdopen >}}
+\[W\] 81-88, 94, 104-107, 114-119, 132-141  
+\[S\] 13-18
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+_Re_→∞ Behavior. Thin Shear Layer Equations. TSL Coordinates.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 96-99, 145-148  
+\[W\] 218-219, 227-233
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+TSL Coordinates. Boundary Conditions. Shear Layer Categories.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Local Scaling. Falkner-Skan Flows.
+{{< tdclose >}}
+{{< tdopen >}}
+\[B\] 308-314  
+\[S\] 201-206  
+\[W\] 233-246
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Solution Techniques**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+ODE'S, PDE's, and Boundary Conditions. Well-Posedness.
+{{< tdclose >}}
+{{< tdopen >}}
+\[W\] 77-78  
+Tannehill, Anderson and Pletcher. _Computational Fluid Mechanics And Heat Transfer,_ 2nd Ed. Taylor and Francis, 1997. Pp. 19-31.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Numerical Methods for ODE's. Discretization. Stability.
+{{< tdclose >}}
+{{< tdopen >}}
+Hirsch, C. _Numerical Computation of Internal and External Flows_. Vol. 1. John Wiley & Sons, 1989. Pp. 267-290.  
+Tannehill, Anderson and Pletcher. Pp. 76-83.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Finite Difference Methods. Newton-Raphson.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Integral Methods. Integral Momentum Equation. Thwaites' Method.
+{{< tdclose >}}
+{{< tdopen >}}
+\[W\] 264-274  
+\[S\] 191-202 (682-698 Optional)  
+\[C&B\] 104-116
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Integral Kinetic Energy Equation. Dissipation Methods.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Integral Kinetic Energy Equation. Dissipation Methods. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Interacting Boundary Layer Theory**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Asymptotic Perturbation Theory. Higher-Order Effects.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+2D Interaction Models: Displacement Body, Transpiration. Form Drag, Stall Mechanisms.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+IBLT Solution Techniques. Iteration Stability.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Fully-Coupled Iteration. 3-D IBLT.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 449-483  
+\[W\] 335-355
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Stability and Transition**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Small-Perturbation Theory. Orr-Sommerfeld Equation.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 449-483  
+\[W\] 335-355
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Small-Perturbation Theory. Orr-Sommerfeld Equation. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Boundary Conditions, Homogeneity, Solution Techniques.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 434-473  
+\[C&B\] 290-301
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Transition Mechanisms. Transition Prediction: Local Correlations, Amplification Methods.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\]  
+\[W\]
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Turbulent Shear Layers**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Reynolds Averaging. Prandtl's Analogy.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 496-538  
+\[W\] 394-463  
+\[C&B\]
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Turbulent BL Structure: Wake, Wall Layers. Inner, Outer Variables. Effects of Roughness.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 495-552  
+\[C&B\] 160-210  
+\[W\] 394-449
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Turbulent BL Structure: Wake, Wall Layers. Inner, Outer Variables. Effects of Roughness. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+Equilibrium BL's: Clauser Hypothesis. Dissipation Formulas and Integral Closure.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+Equilibrium BL's: Clauser Hypothesis. Dissipation Formulas and Integral Closure. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+Turbulence Modeling and Closure. Algebraic Models. Transport Models.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Compressible Thin Shear Layers**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+Definition and Implications of Compressibility. Special Solutions. Reynolds Analogy.
+{{< tdclose >}}
+{{< tdopen >}}
+\[S\] 327-330, 340-352  
+\[W\] 184-200, 576-616
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31a
+{{< tdclose >}}
+{{< tdopen >}}
+Definition and Implications of Compressibility. Special Solutions. Reynolds Analogy. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31b
+{{< tdclose >}}
+{{< tdopen >}}
+Approximate Temperature Profile. Reynolds Heat Flux.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**3D Boundary Layer**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+New Effects: Crossflow, Lateral Dilation, 3D Separation. Governing Equations.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+33
+{{< tdclose >}}
+{{< tdopen >}}
+Coordinate Systems. Characteristics, BC's, and Well-Posedness.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+34
+{{< tdclose >}}
+{{< tdopen >}}
+3D Characteristics, BC's. Quasi-3D: Constant-Crossflow Approximation.
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+35
+{{< tdclose >}}
+{{< tdopen >}}
+3D Characteristics, BC's. Quasi-3D: Constant-Crossflow Approximation. (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+36
+{{< tdclose >}}
+{{< tdopen >}}
+3D Stability Theory. 3D Transition Mechanisms.
+{{< tdclose >}}
+{{< tdopen >}}
+\[W\] 342-344  
+Reed, H.L. and W.S. Saric, "Stability of Three-Dimensional Boundary Layers". Annual Review of Fluid Mechanics 21 (1989): 235 - 284.  
+Mack, L.M. "Boundary-layer stability theory", Special Course on Stability and Transition of Laminar Flow, AGARD R-709 (1984): 3-1 - 3-81.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
